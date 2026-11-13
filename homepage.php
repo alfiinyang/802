@@ -1,3 +1,4 @@
+<?php require 'auth.php'; ?>
 <html>
 <head>
 <link rel="stylesheet" type="text/css" href="homepage.css" />
@@ -7,16 +8,7 @@
 </style>
 </head>
 <body>
-<h1> Flamingo Registration Page</h1>
-<div class="navigation">
-<ul>
-<li><a href="#">Add New Products</a></li>
-<li><a href="#">Update Products</a></li>
-<li><a href="#">Display All Products</a></li>
-<li><a href="#">Search for a Product</a></li>
-<li><a href="#">Logout</a></li>
-</ul>
-<br /><p>
-\</p></div>
+<?php include 'nav.php'; ?>
+<p>Welcome! Choose an option from the menu above.</p>
 </body>
 </html>

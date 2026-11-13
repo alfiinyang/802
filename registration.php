@@ -14,7 +14,7 @@
     <input type="password" name="txtRepeatPassword" required>
     
     <div class="clearfix">
-      <input type="button"  class="cancelbtn" value="Cancel"/>
+      <input type="button"  class="cancelbtn" value="Cancel" onclick="location.href='index.php'"/>
       <input type="submit" class="signupbtn" value="Sign Up"/>
     </div>
   </div>
