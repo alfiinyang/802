@@ -1,0 +1,17 @@
+
+.login { 
+	height:180px;
+	width:250px;
+	margin:auto;
+	border:1px #CCC solid;
+	padding:10px;
+}
+
+.login input { 
+	padding:5px;
+	margin:5px
+ }
+
+h1{text-align: center}
+
+
