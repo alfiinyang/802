@@ -14,6 +14,8 @@
     <input type="password" name="txtRepeatPassword" required>
     
     <div class="clearfix">
+      <!-- CHANGED: Added onclick so Cancel returns to the login page (index.php).
+           Before, the button did nothing when clicked. -->
       <input type="button"  class="cancelbtn" value="Cancel" onclick="location.href='index.php'"/>
       <input type="submit" class="signupbtn" value="Sign Up"/>
     </div>
